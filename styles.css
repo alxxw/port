@@ -1,0 +1,71 @@
+svg {
+    color: #03dac6 !important;
+
+}
+
+svg:hover {
+    color: #8cfafa !important;
+    transition: 0.25s ease-in-out;
+}
+
+
+
+.primary-colour {
+    color: #BB86FC !important
+}
+
+.nav-item:hover {
+    color: #cfabfa !important;
+    transition: 0.25s ease-in-out;
+}
+
+.primary-variant {
+    color: #3700B3
+}
+
+.secondary-color {
+    color: #03dac6 !important;
+}
+
+.background-color {
+    color: #121212
+}
+
+.gm-text {
+    font-weight: 500;
+    font-size: xx-large;
+    color: lightgrey;
+}
+
+.nametag {
+    bottom: 0;
+    right: 0;
+    margin: 0 40px 30px 0;
+    font-weight: 500;
+    font-size: 5nm;
+    position: absolute;
+    text-align: center;
+}
+
+.landing-page {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(https://wallpaper.dog/large/20471179.jpg);
+    background-color: #121212;
+    background-size: cover;
+    height: 100vh;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-page {
+    background-color: #121212;
+    background-size: cover;
+    height: 100vh;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
