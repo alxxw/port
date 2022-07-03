@@ -1,77 +1,85 @@
 svg {
-    color: #03dac6 !important;
-
+  color: #03dac6 !important;
 }
 
 svg:hover {
-    color: #8cfafa !important;
-    transition: 0.25s ease-in-out;
+  color: #8cfafa !important;
+  transition: 0.25s ease-in-out;
 }
 
-
-
 .primary-colour {
-    color: #BB86FC !important
+  color: #bb86fc !important;
 }
 
 .nav-item:hover {
-    color: #cfabfa !important;
-    transition: 0.25s ease-in-out;
+  color: #cfabfa !important;
+  transition: 0.25s ease-in-out;
 }
 
 .primary-variant {
-    color: #3700B3
+  color: #3700b3;
 }
 
 .secondary-color {
-    color: #03dac6 !important;
+  color: #03dac6 !important;
 }
 
 .background-color {
-    color: #121212
+  color: #121212;
 }
 
 .gm-text {
-    font-weight: 500;
-    font-size: xx-large;
-    color: lightgrey;
+  font-weight: 500;
+  font-size: xx-large;
+  color: lightgrey;
 }
 
 .nametag {
-    bottom: 0;
-    right: 0;
-    margin: 0 40px 30px 0;
-    font-weight: 500;
-    font-size: 5nm;
-    position: absolute;
-    text-align: center;
+  bottom: 0;
+  right: 0;
+  margin: 0 40px 30px 0;
+  font-weight: 500;
+  font-size: 5nm;
+  position: absolute;
+  text-align: center;
 }
 
 .landing-page {
-
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(https://wallpaperaccess.com/full/2671935.jpg);
-    background-size: cover;
-    height: 100vh;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url(https://wallpaperaccess.com/full/2671935.jpg);
+  background-size: cover;
+  height: 100vh;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .centered {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .about-page {
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(https://wallpaper.dog/large/20471179.jpg);
-    background-size: cover;
-    height: 100vh;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url(https://wallpaper.dog/large/20471179.jpg);
+  background-size: cover;
+  height: 100vh;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .contact-page {
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(https://i.ytimg.com/vi/3ubUGdr_hq0/maxresdefault.jpg);
-    background-size: cover;
-    height: 100vh;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url(https://i.ytimg.com/vi/3ubUGdr_hq0/maxresdefault.jpg);
+  background-size: cover;
+  height: 100vh;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+::marker {
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
 }
